@@ -279,7 +279,10 @@
  @media (max-width: 450px) {
 	 .section-wrapper {
 		 width: 100%;
-	}
+  }
+  .sm-screen{
+    font-size : 0.8em ! important; 
+  }
 }
  .section-wrapper:nth-child(3) {
 	 padding-right: 8%;
