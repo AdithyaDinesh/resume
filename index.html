@@ -149,6 +149,7 @@
   
   <div class="clearfix">
   <small>OS : </small><small id="os"> </small>
+  <small>/browserName : </small><small id="browserName"> </small>
   <small>/ userAgent : </small><small id="userAgent"> </small>
   </div>
 </div>
@@ -157,4 +158,5 @@
 <script>
 document.getElementById("os").innerHTML = navigator.platform 
 document.getElementById("userAgent").innerHTML = navigator.userAgent
+document.getElementById("browserName").innerHTML = navigator.appName
   </script>
